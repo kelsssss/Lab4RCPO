@@ -155,7 +155,7 @@ function DndPage() {
                                 return (
                                     <div {...provided.droppableProps} ref={provided.innerRef}
                                         style={{
-                                            background: snapshot.isDraggingOver ? 'rgba(10, 10, 30, 0.6)' : 'rgba(10, 10, 30, 0.4)',
+                                            background: snapshot.isDraggingOver ? 'rgba(7, 46, 12, 0.6)' : 'rgba(17, 64, 21, 0.4)',
                                             padding: 4,
                                             width: 250,
                                             minHeight: 500,
@@ -173,7 +173,7 @@ function DndPage() {
                                                                 padding: '4px',
                                                                 margin: '0 0 8px 0',
                                                                 minHeight: '50px',
-                                                                backgroundColor: snapshot.isDragging ? 'rgba(0,0,255, 0.5)' : 'rgba(0,0,255, 1.0)',
+                                                                backgroundColor: snapshot.isDragging ? 'rgba(20, 78, 16, 0.5)' : 'rgba(42, 206, 30, 0.5)',
                                                                 borderRadius: '5px',
                                                                 color: 'white',
                                                                 ...provided.draggableProps.style,
@@ -181,7 +181,7 @@ function DndPage() {
                                                             {item.content}
                                                             <button
                                                                 style={{
-                                                                    backgroundColor: '#3e0d94',
+                                                                    backgroundColor: '#006400',
                                                                     color: 'white',
                                                                     border: 'none',
                                                                     borderRadius: '3px',
